@@ -11,4 +11,4 @@ Berawal dari kebutuhan pokok sehari-hari kami, yang hidup dalam kosan bersama un
 Komponen:
 kami menggunakan sensor loadcell dan HX711 sebagai alat pengukur isi tabung LPG. sebelumnya kami berencana untuk menggunakan sensor tekanan namun karena faktor keselamatan akhirnya kami memutuskan untuk memontoring isi dengan variable berat. Variable berat yang terbaca kami konversikan dalam bentuk persentase dengan vol% = (data terbaca/3)x100. Kemudian untuk microkontroller kami menggunakan NODEMCU karena sudah terintegrasi dengan modul wifi yang sangat memudahkan kami. Kami juga melengkapinya dengan sensor MQ6 sebagai pendeteksi kebocoran gas. Ini akan menjadi sistem keselamatan kami juga kami lalai atau salah dalam memasang tabung gas.
 
-
+file .py adalah file untuk aplikasi di dekstop kemudian file .ino adalah program yang di upload ke nodemcu
